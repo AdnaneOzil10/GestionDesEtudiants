@@ -1,0 +1,5 @@
+type Query {
+    getStudentByDateNaissance(date:String): [Student]
+    hello: String
+
+}
